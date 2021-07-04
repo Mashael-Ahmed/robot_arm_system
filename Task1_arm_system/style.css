@@ -1,0 +1,40 @@
+﻿body {
+    background: rgb(177, 177, 221);
+}
+
+main {
+    /* background: white; */
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 10rem;
+    padding: 1.5rem 1.5rem;
+    border: 2px solid black;
+}
+
+.engine {
+    border: 2px solid black;
+    margin: 1rem 0.5rem;
+}
+
+input[type=range] {
+    margin: 1rem 0.5rem;
+    width: 400px;
+    height: 12px;
+    -webkit-appearance: none;
+    outline: #111111;
+    background: white;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: black;
+}
+
+input[type=submit] {
+    width: 60px;
+    font-size: 1.25rem;
+    margin-right: 0.5rem;
+}
